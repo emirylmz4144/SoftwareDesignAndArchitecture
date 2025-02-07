@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.StudentDashboardUI">
+  <grid id="27dc6" binding="conteiner" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1255" height="695"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="fe98c" binding="pnl_top_left" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="15" left="20" bottom="0" right="20"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b659a" class="javax.swing.JLabel" binding="lbl_icon">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="1d1a7">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="c1701" class="javax.swing.JLabel" binding="lbl_info">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="24" style="1"/>
+              <text value="ÖĞRENCİ PANELİ"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d51dc" binding="pnl_top_right" layout-manager="GridLayoutManager" row-count="3" column-count="6" same-size-horizontally="true" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="40" left="0" bottom="0" right="30"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="eee10" class="javax.swing.JLabel" binding="lbl_search">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="ÜRÜNÜN ADI"/>
+            </properties>
+          </component>
+          <vspacer id="a29ad">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="660d0" class="javax.swing.JTextField" binding="txt_search">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="40"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="56f3b" class="javax.swing.JComboBox" binding="cmbx_item_type">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a4781" class="javax.swing.JButton" binding="btn_search">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="ARAMA YAP"/>
+            </properties>
+          </component>
+          <component id="6f2fc" class="javax.swing.JButton" binding="btn_my_items">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="KİTAPLARIM"/>
+            </properties>
+          </component>
+          <component id="44e79" class="javax.swing.JButton" binding="btn_my_fines">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="CEZALARIM"/>
+            </properties>
+          </component>
+          <component id="5776c" class="javax.swing.JLabel" binding="lbl_search_information">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="20" style="1"/>
+              <text value="ÜRÜN ARAMA"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="91805" binding="pnl_bottom_left" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="a9ddd" layout-manager="GridLayoutManager" row-count="16" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="15" bottom="0" right="10"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="96461" class="javax.swing.JTextField" binding="txt_product_barcode">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="40"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <vspacer id="c584c">
+                <constraints>
+                  <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="a726f" class="javax.swing.JLabel" binding="lbl_product_name">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="ÜRÜNÜN ADI"/>
+                </properties>
+              </component>
+              <component id="c141f" class="javax.swing.JTextField" binding="txt_product_name">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="dafc" class="javax.swing.JLabel" binding="lbl_product_author">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="ÜRÜNÜN YAZARI"/>
+                </properties>
+              </component>
+              <component id="70f20" class="javax.swing.JTextField" binding="txt_product_author">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="9fa9a" class="javax.swing.JLabel" binding="lbl_product_page_number">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="ÜRÜNÜN SAYFA SAYISI"/>
+                </properties>
+              </component>
+              <component id="ba7ef" class="javax.swing.JTextField" binding="txt_product_page_nmber">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="40"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="b5419" class="javax.swing.JLabel" binding="lbl_product_available">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="ÜRÜNÜN MÜSAİTLİK DURUMU"/>
+                </properties>
+              </component>
+              <component id="6531c" class="javax.swing.JComboBox" binding="cmbx_product_available">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                </properties>
+              </component>
+              <component id="d79af" class="javax.swing.JLabel" binding="lbl_product_type">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="ÜRÜNÜN TÜRÜ"/>
+                </properties>
+              </component>
+              <component id="98cbc" class="javax.swing.JComboBox" binding="cmbx_product_type">
+                <constraints>
+                  <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                </properties>
+              </component>
+              <component id="4b3b8" class="javax.swing.JButton" binding="btn_log_out">
+                <constraints>
+                  <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="ÇIKIŞ YAP"/>
+                </properties>
+              </component>
+              <component id="a73f6" class="javax.swing.JLabel" binding="lbl_product_barcode">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="ÜRÜNÜN BARKOD NUMARASI"/>
+                </properties>
+              </component>
+              <vspacer id="9766e">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="c24d3">
+                <constraints>
+                  <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="a999d" binding="pnl_bottom_right" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="15" right="30"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="b0224" binding="scrll_items">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="600"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="5215" class="javax.swing.JTable" binding="tbl_items">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
